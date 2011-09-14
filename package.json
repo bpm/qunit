@@ -1,6 +1,6 @@
 {
 	"name": "qunit",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"author": "The jQuery Project",
 	"contributors": [
 	{
@@ -29,11 +29,11 @@
 	
 	"bpm:build": {
 	  "bpm_libs.js": {
-	    "directories": []
+	    "files": []
 	  },
 	  
 	  "bpm_styles.css": {
-	    "directories": []
+	    "files": []
 	  },
 	  
 	  "qunit": {
@@ -41,11 +41,11 @@
 	  },
 	  
 	  "qunit/qunit_styles.css": {
-	    "directories": ["qunit"]
+	    "files": ["qunit"]
 	  },
 	  
 	  "qunit/qunit_libs.js": {
-	    "directories": ["qunit"]
+	    "files": ["qunit"]
 	  }
 	}
 }
