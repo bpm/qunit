@@ -21,31 +21,19 @@
 	"description": "An easy-to-use JavaScript Unit Testing framework.",
 	"summary": "JavaScript Unit Testing framework",
 	"homepage": "http://docs.jquery.com/QUnit",
-	"directories": {
-	  "lib": "qunit"
-	},
 	"keywords": [ "testing", "unit", "jquery" ],
-	"lib": "qunit",
 	
 	"bpm:build": {
-	  "bpm_libs.js": {
-	    "files": []
-	  },
-	  
-	  "bpm_styles.css": {
-	    "files": []
-	  },
-	  
 	  "qunit": {
 	    "assets": ["index.html"]
 	  },
-	  
+
 	  "qunit/qunit_styles.css": {
-	    "files": ["qunit"]
+	    "files": ["qunit/qunit.css"]
 	  },
-	  
+
 	  "qunit/qunit_libs.js": {
-	    "files": ["qunit"]
+	    "files": ["qunit/qunit.js"]
 	  }
 	}
 }
